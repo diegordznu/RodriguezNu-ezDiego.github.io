@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Gráficos</title>
+    <style>
+        /* -------------------------------------------
+        ESTILOS GLOBALES Y DEL FRAME (Caja Principal)
+        ------------------------------------------- */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9e9e9; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            min-height: 100vh;
+        }
+
+        .dashboard-frame {
+            background-color: white; 
+            padding: 40px;
+            margin: 20px;
+            max-width: 900px; 
+            width: 95%;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* -------------------------------------------
+        ESTILO DE TÍTULO
+        ------------------------------------------- */
+        .header {
+            font-size: 28px;
+            color: #4b0082; 
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header img {
+            height: 30px; 
+            margin-right: 10px;
+        }
+
+        /* -------------------------------------------
+        ESTILO DE LA CUADRÍCULA DE BOTONES
+        ------------------------------------------- */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 15px; 
+            margin-bottom: 30px;
+        }
+        
+        .grid-container-bottom {
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 75%; 
+            margin: 0 auto 30px auto; 
+        }
+
+        /* -------------------------------------------
+        ESTILO GENERAL DE LOS BOTONES
+        ------------------------------------------- */
+        .btn-grafico {
+            padding: 12px 10px;
+            border: 1px solid #c3c0f5; 
+            background-color: white;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-grafico:hover {
+            background-color: #f5f5ff;
+        }
+
+        .btn-grafico.destacado {
+            background-color: #4b4bfa; 
+            color: white;
+            border-color: #4b4bfa;
+        }
+        .btn-grafico.destacado:hover {
+            background-color: #3a3aeb;
+        }
+        
+        .btn-grafico img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 5px; 
+        }
+
+        /* -------------------------------------------
+        ESTILO DEL BOTÓN PRINCIPAL INFERIOR
+        ------------------------------------------- */
+        .btn-principal {
+            width: 100%;
+            padding: 15px;
+            background-color: #4b4bfa; 
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .btn-principal:hover {
+            background-color: #3a3aeb;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="dashboard-frame">
+    <h2 class="header">
+        <span>📊</span>
+        Gráficas del Proyecto VideoConnect
+    </h2>
+
+    <div class="grid-container">
+        
+        <a href="vista1.html" target="_blank" class="btn-grafico destacado">
+            <alt=Miniatura Gráfico 2>
+            Gráfica 1
+        </a>
+        
+        <a href="vista2.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 3>
+            Gráfica 2
+        </a>
+        
+        <a href="vista3.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 4>
+            Gráfica 3
+        </a>
+        
+        <a href="vista4.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 5>
+            Gráfica 4
+        </a>
+        
+        <a href="vista5.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 6>
+            Gráfica 5
+        </a>
+        
+        <a href="vista6.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 7>
+            Gráfica 6
+        </a>
+        
+        <a href="vista7.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 8>
+            Gráfica 7
+        </a>
+        
+        <a href="vista8.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 9>
+            Gráfica 8
+        </a>
+        
+         <a href="vista9.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 10>
+            Gráfica 9
+        </a>
+        
+        <a href="vista10.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 11>
+            Gráfica 10
+        </a>
+
+
+        <a href="vista11.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 12>
+            Gráfica 11
+        </a>
+        
+        <a href="vista12.html" target="_blank" class="btn-grafico">
+            <alt=Miniatura Gráfico 13>
+            Gráfica 12
+        </a>
+        
+    </div>
+    
+    <div class="grid-container grid-container-bottom">
+        
+        <a href="vista13.html" target="_blank" class="btn-grafico">
+            <alt="Miniatura Gráfico 14">
+            Gráfica 13
+        </a>
+        
+        <a href="vista14.html" target="_blank" class="btn-grafico">
+            <alt="Miniatura Gráfico 15">
+            Gráfica 14
+        </a>
+        
+        <a href="vista15.html" target="_blank" class="btn-grafico">
+            <alt="Miniatura Gráfico 16">
+            Gráfica 16
+        </a>
+        
+    </div>
+
+    <a href="menu_principal.html">
+        <button type="button" class="btn-principal">Regresar a Menú Principal</button>
+    </a>
+</div>
+
+</body>
+</html>
